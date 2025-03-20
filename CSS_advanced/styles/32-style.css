@@ -411,12 +411,13 @@
   }
   
   .nav .nav-link{
+    color: white;
     display: block;
     padding: 0.5rem 1rem;
   }
   
   .nav .nav-link:hover{
-      color: var(--nav-item-link-hover);
+      color: var(--color-white);
   }
   
   .nav .nav-link::before{
@@ -525,6 +526,7 @@
   
   .section-header{
     padding: var(--section-header-padding);
+    text-align: var(--section-header-align);
   }
   
   .section-body{
@@ -704,8 +706,8 @@
     --color-primary: #D73953;
     --color-black: #090909;
     --color-white: #ffffff;
-    --color-light-grey: #f3f3f3;
-    --color-dark-grey: #353535;
+    --color-light-grey: #e0e0e0;
+    --color-dark-grey: #5a5a5a;
     --text-color: var(--color-primary);
     --font-family-base: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
     --ont-family-title: Raleway, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -735,7 +737,7 @@
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
-    --nav-item-link-hover: var(--color-white);
+    --nav-item-link-hover: var(--color-primary);
     --section-tagline-margin: 0;
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
